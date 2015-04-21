@@ -1,0 +1,192 @@
+* {
+    padding:0;
+    border:0;
+    margin:0;
+    font-family: sans-serif;
+}
+
+#header {
+    border-bottom: 2px solid navy;
+    border-top: 1px solid navy;
+    width:100%;
+    margin: 0 0 2% 0;
+    padding: 2% 0 2% 0;
+    background: -webkit-linear-gradient(#4E69A2, #3C5A99); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4E69A2, #3C5A99); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4E69A2, #3C5A99); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4E69A2, #3C5A99); /* Standard syntax */
+    color:#FDFDFD;
+    box-shadow: 0 .2em .3em gray;
+    text-shadow: -1px -1px #111111;
+}
+
+    #header > * {
+        display:inline;
+    }
+    #header > h3 a {
+        margin: 0 63% 0 3%;
+        color:#FDFDFD;
+        text-decoration: none;
+    }
+        #header > h3 a:hover {
+            text-decoration: none;
+        }
+    #header > p {
+        margin: 0 2% 0 0;
+    }
+    #header > a {
+        color: orange;
+        text-decoration: none;
+        border-left: 2px solid #FDFDFD;
+        padding: .5em 0 .5em 2%;
+    }
+
+h4 {
+    margin: 0 0 0 2%;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+#register, #login {
+    display:inline-block;
+    width: 35%;
+    vertical-align: top;
+    margin: 1% 2% 0 4%;
+}
+
+form {
+    /*display: inline-block;*/
+    border: 2px solid gray;
+    /*width: 35%;*/
+    margin: 2% 0 3% 5%;
+    padding: 8% 0 5% 10%;    
+    background-color:#dddddd;
+    box-shadow: .1em .1em .3em gray;
+}
+    form > input {
+        display: block;
+        height: 2rem;
+        width: 12rem;
+        border: 1px solid gray;
+        border-radius: .5em;
+        margin: 1em 0 1em 1em;
+        font-size: 1em;
+        padding: 0 0 0 .5em;
+    }
+    form > input:last-child {
+        color: white;
+        font-size: .9em;
+        margin: 1.5em 0 1em 1em;
+        padding: .5em 0 .5em 0;
+        background: -webkit-linear-gradient(rgb(96, 120, 180), #3C5A99); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(rgb(96, 120, 180), #3C5A99); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(rgb(96, 120, 180), #3C5A99); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(rgb(96, 120, 180), #3C5A99); /* Standard syntax */
+        border: 1px solid navy;
+        box-shadow: .1em .1em .3em #111111;
+        width: 8rem;
+        text-shadow: -1px -1px #111111;
+    }
+
+    #postmessage, .post {
+        margin: 0 5% 0 0;
+    }
+
+    textarea {
+        height:5rem;
+        width:75%;
+        padding: .75%;
+        margin:0;
+        border: 2px solid gray;
+    }
+
+    .commentbox {
+        width: 90%;
+        margin: 0 0 0 5%;
+    }
+
+    .message, .commentbox{
+        padding: 0;
+        margin: 4% 0 2% 4%;
+
+    }
+        .commentbox {
+            margin-top: 3%;
+            
+        }
+        .message p , .comment p{
+            font-style:italic;
+            margin: .5% 0 0 4%;
+            /*width: 20%;*/
+        }
+
+        .comment p {
+            margin-bottom: 3%;
+            margin-top: .5%; 
+            font-size: .8em;
+            display:inline-block;
+            vertical-align: top;
+        }
+
+    #postmessage > form, .commentbox > form {
+        padding: 3%;
+
+    }
+ 
+    input.green.button {
+        background: -webkit-linear-gradient(#008A00, #006E00); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#008A00, #006E00); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#008A00, #006E00); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#008A00, #006E00); /* Standard syntax */
+    }
+
+    .errors p {
+        color: red;
+        margin: 0 0 .6em 6%;
+    }
+
+    .comment {
+
+        margin: .5% 0 1% 10%;
+    }
+    .username {
+        font-weight: bold;
+    }
+
+    input.delete.button {
+        height: 1.5rem;
+        width: 6rem;
+        padding:0;
+        display:inline-block;
+        vertical-align: top;
+        margin: 0 0 0 0;
+        background: -webkit-linear-gradient(#A4A4A4, #737373); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#A4A4A4, #737373); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#A4A4A4, #737373); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#A4A4A4, #737373); /* Standard syntax */
+        border: 1px solid navy;
+        box-shadow: .1em .1em .3em #111111;
+        text-shadow: -1px -1px #111111;
+        border-radius: .4em;
+    }
+    form.no.css.form {
+        height: 0;
+        width:0;
+        padding:0;
+        vertical-align: top;
+        display:inline-block;
+        margin: 0 0 0 10%;
+        border:0;
+        background-color:transparent;
+        padding:0;
+        background: transparent;
+        background: transparent;
+        background: transparent;
+        background: transparent;
+    }
+    input.delete.button.dmessage {
+        margin: -3rem 0 0 30rem;
+    }
+
